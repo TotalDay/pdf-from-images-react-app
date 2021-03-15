@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pdf-from-images-react-app/static/css/main.0ea36d78.chunk.css",
-    "main.js": "/pdf-from-images-react-app/static/js/main.baee0d84.chunk.js",
-    "main.js.map": "/pdf-from-images-react-app/static/js/main.baee0d84.chunk.js.map",
+    "main.js": "/pdf-from-images-react-app/static/js/main.cf1b2e91.chunk.js",
+    "main.js.map": "/pdf-from-images-react-app/static/js/main.cf1b2e91.chunk.js.map",
     "runtime-main.js": "/pdf-from-images-react-app/static/js/runtime-main.f33bc18d.js",
     "runtime-main.js.map": "/pdf-from-images-react-app/static/js/runtime-main.f33bc18d.js.map",
     "static/js/2.517a5a74.chunk.js": "/pdf-from-images-react-app/static/js/2.517a5a74.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.f33bc18d.js",
     "static/js/3.c812a096.chunk.js",
     "static/css/main.0ea36d78.chunk.css",
-    "static/js/main.baee0d84.chunk.js"
+    "static/js/main.cf1b2e91.chunk.js"
   ]
 }
