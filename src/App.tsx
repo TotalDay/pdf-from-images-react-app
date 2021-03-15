@@ -150,8 +150,8 @@ function App() {
 
   return (
     <>
-      <h1>Convert images to PDFs</h1>
-
+      <h1>Сохранение PDF из фото (сканов)</h1>
+	  <h2>* Ваши фото никуда не отсылаются, они обрабатываются на Вашем компьютере.</h2>
       {/* Overview of uploaded images */}
       <div className="images-container">
         {uploadedImages.length > 0 ? (
@@ -159,7 +159,7 @@ function App() {
             <img key={image.src} src={image.src} className="uploaded-image" />
           ))
         ) : (
-          <p>Upload some images...</p>
+          <p>Загрузите свои фото (сканы)...</p>
         )}
       </div>
 
@@ -167,7 +167,7 @@ function App() {
       <div className="buttons-container">
         {/* Uploads images */}
         <label htmlFor="file-input">
-          <span className="button">Upload images</span>
+          <span className="button">Загрузить</span>
           <input
             id="file-input"
             type="file"
@@ -185,9 +185,10 @@ function App() {
           className="button"
           disabled={uploadedImages.length === 0}
         >
-          Generate PDF
+          Сохранить PDF
         </button>
       </div>
+	   <h2>Сервис создан для Портала Государственных услуг ПМР.</h2>
     </>
   );
 }
