@@ -150,8 +150,8 @@ function App() {
 
   return (
     <>
-      <h1>Сохранение PDF из фото (сканов)</h1>
-	  <p>Ваши фото никуда не отсылаются, они обрабатываются на Вашем компьютере.</p>
+      <h1>Сохранить изображения в PDF</h1>
+	  <p>Ваши фото (сканы) никуда не отсылаются, они обрабатываются на Вашем компьютере.</p>
       {/* Overview of uploaded images */}
       <div className="images-container">
         {uploadedImages.length > 0 ? (
@@ -185,7 +185,7 @@ function App() {
           className="button"
           disabled={uploadedImages.length === 0}
         >
-          Сохранить PDF
+          Сохранить
         </button>
       </div>
     </>
