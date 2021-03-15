@@ -2,7 +2,7 @@
   "name": "pdf-from-images-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://TotalDay.github.io/7",
+  "homepage": "http://TotalDay.github.io/pdf-from-images-react-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
